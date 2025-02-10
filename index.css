@@ -3,7 +3,26 @@
     justify-content: center;
     color: rgb(245, 240, 240);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
-    
+    .xbox{ display: flex;
+        justify-content: center;
+    margin-top: 25px;}
+    .c{
+        display: flex;
+        margin-top: 10px;
+        gap: 30%;
+        margin-left: -2%;
+        
+    }
+    .S{display: flex;
+        margin-left: 80%;
+        margin-top: 10%;
+    }
+    .J{
+        display: flex;
+        margin-top: 10%;
+        gap: 30%;
+        
+    }
         body {
             margin: 0;
             font-family: Arial, sans-serif;
