@@ -28,7 +28,9 @@
             font-family: Arial, sans-serif;
             background: linear-gradient(180deg, #000000, #0a0a0a); /* Fond dégradé noir */
             color: white;
-            text-align: center;}
+            text-align: center;
+            overflow-x: hidden;
+        }
         .ligne{
             display:flex;
             justify-content: space-evenly;
@@ -95,6 +97,32 @@ h2{
     footer{
         display: flex;
         justify-content: space-evenly;
+    }
+    .portfolio-images {
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        margin-top: 50px;
+    }
+    .c{
+        display: flex;
+        flex-direction: column;
+    }
+    .s{
+        display: flex;
+        flex-direction: column;
+    }
+    .j{
+        display: flex;
+        flex-direction: column;
+    }
+    .ligne{
+        display: flex;
+        justify-content: space-evenly;
+        border: 2px solid rgba(255, 255, 255, 0.2); /* Bordure subtile */
+        border-radius: 30px; /* Coins arrondis */
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5); /* Ombre élégante */
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
     }
     @media (max-width: 768px) {
         /* Styles pour tablettes */
