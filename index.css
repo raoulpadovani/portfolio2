@@ -27,8 +27,8 @@ img {
 .menu label {
     cursor: pointer;
     display: inline-block;
-    width: 10px;
-    height: 10px;
+    width: 30px;
+    height: 30px;
     background: #ccc;
     border-radius: 50px;
     margin: 0 0.2em 1em;
@@ -178,6 +178,7 @@ h2{
     }
     @media (max-width: 768px) {
         /* Styles pour tablettes */
+        
     }
     
     @media (max-width: 480px) {
